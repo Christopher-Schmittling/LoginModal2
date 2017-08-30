@@ -1,0 +1,166 @@
+
+html{
+  background-color: #c0c0c0;
+}
+.modal{
+  width: 580px;
+  height: 520px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -290px;
+  margin-top: -260px;
+  background-color: white;
+  text-align: center;
+}
+.rotate a{
+  padding-top: 10px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  float: right;
+  margin-right: 10px;
+}
+.rotate:hover{
+  cursor: pointer;
+}
+.title{
+  font-size: 27px;
+  padding-top: 30px;
+  color: #2d383f;
+}
+.login{
+  padding-top: 50px;
+  text-align: left;
+  margin-left: 130px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  color: #2d383f;
+  text-transform: uppercase;
+}
+.login input{
+  width: 320px;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #2d383f;
+  background-color: #f0f0f0;
+}
+.secure {
+  padding-top: 25px;
+  text-align: left;
+  margin-left: 130px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  color: #2d383f;
+  text-transform: uppercase;
+}
+.secure input{
+  width: 320px;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #2d383f;
+  border: #d31245 solid 1px;
+  background-color: #f0f0f0;
+}
+.incorrect {
+  /*display: none;*/
+  text-align: left;
+  margin-left: 130px;
+  padding-top: 15px;
+  color: #d31245;
+  font-size: 16px;
+  font-style: italic;
+}
+.rem-pass{
+  text-align: left;
+  margin-left: 130px;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #2d383f;
+}
+.submit {
+  padding-top: 25px;
+}
+.submit button{
+  background-color: #00aa7e;
+  color: #fff;
+  width: 260px;
+  height: 40px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: 12px;
+}
+.help{
+  padding-top: 30px;
+  font-size: 12px;
+}
+.help a{
+  text-decoration: none;
+  color: #00aa7e;
+}
+.service{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font-size: 12px;
+  line-height: 18px;
+  max-width: 300px;
+  margin: auto;
+}
+.service .hidden{
+  display: none;
+}
+.service a{
+  color: #00aa7e;
+  text-decoration: none;
+}
+
+@media (max-width: 992px){
+  .modal{
+    height: 585px;
+    width: 350px;
+    min-height: 585px;
+    min-width: 350px;
+    margin-left: -175px;
+    margin-top: -292.5px;
+  }
+  .title{
+    font-size: 27px;
+  }
+  .login {
+    margin-left: 25px;
+  }
+  .login input{
+    font-size: 26px;
+    width: 300px;
+  }
+  .secure{
+    margin-left: 25px;
+  }
+  .secure input{
+    font-size: 26px;
+    width: 300px;
+  }
+  .incorrect {
+    font-size: 26px;
+    margin-left: 25px;
+  }
+  .rem-pass {
+    font-size: 18px;
+    margin-left: 25px;
+  }
+  .help {
+    font-size: 18px;
+  }
+  .service {
+    font-size: 18px;
+  }
+  .service .hidden{
+    display: inline;
+  }
+}

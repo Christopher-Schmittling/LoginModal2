@@ -1,0 +1,46 @@
+<!--Created By: Christopher Schmittling -->
+<head>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<h1><button onclick="document.getElementById('modal').style.display='block'">Sign In</button></h1>
+<div class="modal" id="modal">
+  <div class="rotate">
+    <a onclick="document.getElementById('modal').style.display='none'">+</a>
+  </div>
+  <!--Company Logo-->
+  <div class="title">
+    Development Members Only
+  </div>
+  <!--Login title & box-->
+  <div class="login">
+    User ID </br>
+    <input type="text" name="logInfo" required/>
+  </div>
+  <!--Password title & Box-->
+  <div class="secure">
+    Password </br>
+    <input type="password" name="secInfo" required/>
+  </div>
+  <!--Incorrect Password -->
+  <div class="incorrect">
+    Incorrect Password
+  </div>
+  <!--Remember me checkbox-->
+  <div class="rem-pass">
+    <span><input id="remember" type="checkbox" /> Remember Password </span>
+  </div>
+  <!--submit button-->
+  <div class="submit">
+    <button type="submit">Sign In ></button>
+  </div>
+  <!--Forgot password and Create Account-->
+  <div class="help">
+    <span><a href="#">Forgot Password?</a> | <a href="#">Create an Account</a></span>
+  </div>
+  <!--Customer Service information-->
+  <div class="service">
+    For Customer Service help please contact <a href="mailto:#">loremipsum.com</a><div class="hidden">
+       |
+    </div><a href="#"> Terms &amp Conditions</a>
+  </div>
+</div>
